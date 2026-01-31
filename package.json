@@ -1,0 +1,33 @@
+{
+  "name": "2526-insanity-wanderer-juan-benito-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanbenito-aeg/2526-insanity-wanderer-juan-benito-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juanbenito-aeg/2526-insanity-wanderer-juan-benito-practice/issues"
+  },
+  "homepage": "https://github.com/juanbenito-aeg/2526-insanity-wanderer-juan-benito-practice#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2"
+  }
+}
